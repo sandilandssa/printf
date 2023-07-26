@@ -10,6 +10,7 @@
  */
 
 int main(void)
+
 {
     int len;
     int len2;
@@ -40,9 +41,8 @@ int main(void)
     len2 = printf("Percent:[%%]\n");
     _printf("Len:[%d]\n", len);
     printf("Len:[%d]\n", len2);
-     printf("String:[%s]\n", "I am a string !");
-    _printf("Address:[%p]\n", addr);
-
+    _printf("Unknown:[]\n");
+    printf("Unknown:[]\n");
     return (0);
 
 }
